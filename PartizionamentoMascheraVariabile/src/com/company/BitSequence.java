@@ -37,8 +37,7 @@ public class BitSequence {
     public BitSequence(String in){
         String[] byt=in.split("\\.");
         arr=new boolean[0];
-        for(int i=0;i< byt.length;i++)
-            arr=usisci(arr,intToByte(Integer.parseInt(byt[i]),8));
+        for (String s : byt) arr = usisci(arr, intToByte(Integer.parseInt(s), 8));
     }
 
     /**
@@ -181,6 +180,9 @@ public class BitSequence {
             out+=num+".";
         return out;
     }
+    public String toStringLast(){
+        return toString().substring(0,toString().length()-1);
+    }
     /**
      * metodo di utilitá per istanziare un array booleano tutto true
     *@return  un array booleano pieno della
@@ -204,7 +206,7 @@ public class BitSequence {
             if((i+1)%8==0)
                 out+='.';
         }
-        return out;
+        return out.substring(0,out.length()-1);
     }
     /**
      * metodo che ritorna l'indirizzo dell'array, non modificare

@@ -3,8 +3,17 @@
   <component name="AnalysisUIOptions">
     <option name="SPLITTER_PROPORTION" value="0.5448799" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9333cd1d-75ca-4e0f-8d6b-9621071fb752" name="Changes" comment="" />
+    <list default="true" id="9333cd1d-75ca-4e0f-8d6b-9621071fb752" name="Changes" comment="non ho cambiato niente">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PartizionamentoMascheraVariabile/src/com/company/BitSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/PartizionamentoMascheraVariabile/src/com/company/BitSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PartizionamentoMascheraVariabile/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PartizionamentoMascheraVariabile/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PartizionamentoMascheraVariabile/src/com/company/NetAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/PartizionamentoMascheraVariabile/src/com/company/NetAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PartizionamentoMascheraVariabile/src/com/company/Subnet.java" beforeDir="false" afterPath="$PROJECT_DIR$/PartizionamentoMascheraVariabile/src/com/company/Subnet.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,8 +34,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
@@ -49,8 +62,18 @@
       <updated>1633790355032</updated>
       <workItem from="1633790358007" duration="57000" />
       <workItem from="1633790425080" duration="257000" />
-      <workItem from="1633790708570" duration="429000" />
+      <workItem from="1633790708570" duration="834000" />
+      <workItem from="1633854756058" duration="677000" />
+      <workItem from="1634822655943" duration="1572000" />
     </task>
+    <task id="LOCAL-00001" summary="non ho cambiato niente">
+      <created>1633791342572</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633791342572</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,5 +90,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="non ho cambiato niente" />
+    <option name="LAST_COMMIT_MESSAGE" value="non ho cambiato niente" />
   </component>
 </project>

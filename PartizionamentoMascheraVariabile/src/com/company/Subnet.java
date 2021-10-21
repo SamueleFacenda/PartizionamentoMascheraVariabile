@@ -65,7 +65,7 @@ public class Subnet extends BitSequence{
      */
     public Subnet resize(int len){
         boolean[] out=new boolean[len];
-        for(int i=len-1;i>=0;i--)
+        for(int i=len-1;i>=len-arr.length&&i>=0;i--)
             out[i]=arr[i+(arr.length-len)];
         Subnet aut=new Subnet();
         aut.arr=out;
@@ -187,10 +187,13 @@ public class Subnet extends BitSequence{
             if(i+1==arr.length-val.getBitLen())
                 out+='|';
         }
-        return out;
+        return out.substring(0,out.length()-1);
     }
     @Override
     public String toString(){
         return super.toString()+val.toString();
+    }
+    public HostNumber getHN(){
+        return val;
     }
 }

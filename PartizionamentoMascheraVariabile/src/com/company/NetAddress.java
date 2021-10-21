@@ -50,19 +50,20 @@ public class NetAddress {
         for(int i=0;i<num.length;i++)
             lista[i]=new HostNumber(num[i]);
         HostNumber.sort(lista);
-        Subnet[] sub=host.partition(lista, host.size());
+        Subnet[] sub=Subnet.partition(lista, host.size());
         for(int i=0;i<num.length;i++)
             out[i]=new NetAddress(net,sub[i]);
         return out;
     }
     @Override
     public String toString(){
-        return "rete: "+net.toString()+host.getNet().toString()+
-                "\nbroadcast: "+net+host.getBroad().toString()+
-                "\nprimo utilizzato: "+net+host.getFirst().toString()+
-                "\nultimo utilizzato: "+net+host.getLastUsed().toString()+
-                "\nsubnet mask: "+new BitSequence(new BitSequence(BitSequence.getFull(net.size())),host.getSubnetMask())+
-                "\ndefault gateway:"+net+host.getDefaultGateway().toString()+
+        return "rete: "+net.toString()+host.getNet().toStringLast()+
+                "\nbroadcast: "+net+host.getBroad().toStringLast()+
+                "\nprimo utilizzato: "+net+host.getFirst().toStringLast()+
+                "\nultimo utilizzato: "+net+host.getLastUsed().toStringLast()+
+                "\nsubnet mask: "+new BitSequence(new BitSequence(BitSequence.getFull(net.size())),host.getSubnetMask()).toStringLast()+
+                "\ndefault gateway:"+net+host.getDefaultGateway().toStringLast()+
+                "\nn host: "+host.getHN().getVal()+
                 "\n"+host.getStringBit();
     }
 }
