@@ -189,6 +189,9 @@ public class Subnet extends BitSequence{
         }
         return out.substring(0,out.length()-1);
     }
+    public int getNumberOfBitForHost(){
+        return val.getBitLen();
+    }
     @Override
     public String toString(){
         return super.toString()+val.toString();

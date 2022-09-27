@@ -57,7 +57,7 @@ public class NetAddress {
     }
     @Override
     public String toString(){
-        return "rete: "+net.toString()+host.getNet().toStringLast()+
+        return "rete: "+net+host.getNet().toStringLast()+"/"+(32-host.getNumberOfBitForHost())+
                 "\nbroadcast: "+net+host.getBroad().toStringLast()+
                 "\nprimo utilizzato: "+net+host.getFirst().toStringLast()+
                 "\nultimo utilizzato: "+net+host.getLastUsed().toStringLast()+

@@ -8,11 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9333cd1d-75ca-4e0f-8d6b-9621071fb752" name="Changes" comment="non ho cambiato niente">
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PartizionamentoMascheraVariabile/src/com/company/BitSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/PartizionamentoMascheraVariabile/src/com/company/BitSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PartizionamentoMascheraVariabile/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PartizionamentoMascheraVariabile/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PartizionamentoMascheraVariabile/src/com/company/NetAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/PartizionamentoMascheraVariabile/src/com/company/NetAddress.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PartizionamentoMascheraVariabile/src/com/company/Subnet.java" beforeDir="false" afterPath="$PROJECT_DIR$/PartizionamentoMascheraVariabile/src/com/company/Subnet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PartizionamentoMascheraVariabilee/com/company/BitSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PartizionamentoMascheraVariabilee/com/company/BitSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PartizionamentoMascheraVariabilee/com/company/HostNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PartizionamentoMascheraVariabilee/com/company/HostNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PartizionamentoMascheraVariabilee/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PartizionamentoMascheraVariabilee/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PartizionamentoMascheraVariabilee/com/company/NetAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PartizionamentoMascheraVariabilee/com/company/NetAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PartizionamentoMascheraVariabilee/com/company/Subnet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PartizionamentoMascheraVariabilee/com/company/Subnet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="2" />
   </component>
@@ -30,19 +39,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
@@ -65,6 +71,7 @@
       <workItem from="1633790708570" duration="834000" />
       <workItem from="1633854756058" duration="677000" />
       <workItem from="1634822655943" duration="1572000" />
+      <workItem from="1664258167853" duration="1491000" />
     </task>
     <task id="LOCAL-00001" summary="non ho cambiato niente">
       <created>1633791342572</created>
@@ -89,7 +96,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="non ho cambiato niente" />
